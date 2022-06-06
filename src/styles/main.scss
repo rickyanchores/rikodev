@@ -1,0 +1,15 @@
+// IMPORTS
+
+@import "../pages/Home/Home.scss";
+@import "../components/Nav/Nav.scss";
+
+
+// GENERAL 
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 90vh;
+}

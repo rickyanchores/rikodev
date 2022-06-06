@@ -1,0 +1,24 @@
+.Nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 5em;
+    .logo{
+        font-size: 40px;
+        font-weight: bolde;
+        border: 4px solid whitesmoke;
+        padding: 5px;
+    }
+    .navlinks{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 40%;
+        list-style: none;
+        .link{
+            text-decoration: none;
+            color: whitesmoke;
+            text-transform: uppercase;
+        }
+    }
+}
